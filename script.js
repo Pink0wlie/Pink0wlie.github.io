@@ -1,0 +1,1 @@
+const t=new Date('2026-07-25T00:00:00').getTime();setInterval(()=>{let d=Math.max(0,t-Date.now());document.getElementById('timer').textContent=Math.floor(d/86400000)+' дней';},1000);
